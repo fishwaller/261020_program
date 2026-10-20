@@ -1,11 +1,11 @@
 {
   "meta": {
     "author": "발표자",
+    "body_scale": "1.5",
     "deck_title": "프로그램 소개",
     "scaffold": "dusty-rose",
     "sub": "AI프로그램 개발 유형",
-    "title": "261020_program",
-    "body_scale": "1.5"
+    "title": "261020_program"
   },
   "slides": [
     {
@@ -14,7 +14,7 @@
       "kicker": "PRESENTATION",
       "signature": "",
       "subtitle": "AI프로그램 개발 유형",
-      "title_en": "디지털 포렌식 수사",
+      "title_en": "디지털 포렌식 수사와 AI의 만남",
       "title_ko": "프로그램 소개",
       "type": "title"
     },
@@ -26,12 +26,12 @@
       "type": "toc"
     },
     {
-      "type": "visual",
-      "heading_ko": "디지털 포렌식 생태계 구축",
-      "heading_en": "",
-      "figure_html": "<img src=\"images/Snipaste_2026-10-20_11-26-31.png\">",
       "caption": "",
-      "footer_note": ""
+      "figure_html": "<img src=\"images/Snipaste_2026-10-20_11-26-31.png\">",
+      "footer_note": "",
+      "heading_en": "",
+      "heading_ko": "디지털 포렌식 생태계 구축",
+      "type": "visual"
     },
     {
       "signature": "chapter // {{chapter_num}} of {{chapter_total}}",
@@ -40,286 +40,286 @@
       "type": "chapter"
     },
     {
-      "type": "visual",
-      "heading_ko": "주요 목적",
-      "heading_en": "",
+      "caption": "",
       "figure_html": "<!--smartart-src:eyJzbHVnIjogImJMaXN0MiIsICJvdXRsaW5lIjogIuu2gOygleyImOq4ieyekCDtmZzrj5kg7LaU7KCBXG4gIOyLpOyXheq4ieyXrCDrsI8g7Zy07JeF7KeA7JuQIOq4sOqwhCDsgqzsl4XsnqUg67Cp66y4IOy2lOyggVxu7J6E6riI7LK067aIIOq3vO2DnCDstpTsoJVcbiAg6re87YOc6riw66GdIOuTsSDrhbjrrLQg7J6Q66OMICAg67aA7KG07J6s7IucIOq3vOuhnOyLnOqwhCDstpTsoJUiLCAic2NoZW1lIjogbnVsbCwgImZvbnRfc2NhbGUiOiAxLjB9-->\n\n<style>\n.smartart-stage { position: relative; width: 100%; height: 100%; }\n.smartart-node {\n  position: absolute; box-sizing: border-box; overflow: hidden;\n  display: flex; align-items: center; justify-content: center;\n  container-type: size;\n  box-shadow: 0 4px 16px rgba(0,0,0,0.18);\n}\n.smartart-node.is-decor { opacity: 0.55; box-shadow: none; }\n/* 상위(data-lvl=0)는 진하고 또렷하게, 하위로 갈수록 살짝 밝고 채도 낮게 + 그림자 약하게 — 위계가 눈에 보이도록 */\n.smartart-node[data-lvl=\"1\"] { filter: brightness(1.12) saturate(0.85); box-shadow: 0 2px 8px rgba(0,0,0,0.14); }\n.smartart-node[data-lvl=\"2\"] { filter: brightness(1.22) saturate(0.72); box-shadow: 0 1px 5px rgba(0,0,0,0.10); }\n.smartart-node[data-lvl=\"1\"] .smartart-label, .smartart-node[data-lvl=\"2\"] .smartart-label { font-weight: 650; }\n.smartart-label {\n  padding: 0.1em 0.3em; text-align: center;\n  font-family: var(--font-kr); font-weight: 800;\n  color: var(--sa-ink, #fff); line-height: 1.15;\n  text-wrap: balance;\n  /* 박스 높이의 ~70~80%에서 시작, 글자수(--len)가 늘수록 폭 기준으로 자동 축소.\n     --sa-scale은 표 글자크기처럼 나중에 편집기에서 다이어그램별로 직접 조정할 배율(기본 1) — 상수로 박아두지 않음. */\n  font-size: clamp(0.72rem, calc(var(--sa-scale, 1) * min(32cqh, calc(170cqw / var(--len, 4)))), 2.8rem);\n}\n.sa-main { }\n.sa-sub { font-size: 0.62em; font-weight: 500; opacity: 0.85; margin-top: 0.25em; }\n</style>\n<div class=\"smartart-stage\" id=\"sa1\" style=\"--sa-ink:var(--ink-white); --sa-scale:1.0;\">\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:2.00%; top:4.00%; width:42.46%; height:59.80%; border-radius:10px; background:linear-gradient(135deg, var(--sea-foam), var(--sea-bright));\"><span class=\"smartart-label\" style=\"--len:24;\"><div class=\"sa-main\">실업급여 기간 사업장 방문 추적</div></span></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:2.00%; top:63.80%; width:29.90%; height:25.71%; border-radius:10px; background:linear-gradient(135deg, var(--sea-bright), var(--sea-mid));\"><span class=\"smartart-label\" style=\"--len:11;\"><div class=\"sa-main\">부정수급자 활동 추적</div></span></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:2.00%; top:63.80%; width:42.46%; height:25.71%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:2.00%; top:4.00%; width:14.86%; height:29.72%; border-radius:50%; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:52.00%; top:4.00%; width:42.46%; height:59.80%; border-radius:10px; background:linear-gradient(135deg, var(--sea-bright), var(--sea-mid));\"><span class=\"smartart-label\" style=\"--len:20;\"><div class=\"sa-main\">근태기록  부존재시 근로시간 추정</div></span></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:52.00%; top:63.80%; width:29.90%; height:25.71%; border-radius:10px; background:linear-gradient(135deg, var(--sea-sky), var(--sea-bright));\"><span class=\"smartart-label\" style=\"--len:10;\"><div class=\"sa-main\">임금체불 근태 추정</div></span></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:52.00%; top:63.80%; width:42.46%; height:25.71%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:52.00%; top:4.00%; width:14.86%; height:29.72%; border-radius:50%; background:var(--sea-sky);\"></div>\n</div>",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "",
+      "heading_ko": "주요 목적",
+      "type": "visual"
     },
     {
-      "type": "visual",
-      "heading_ko": "위치분석기 사용방법(python)",
-      "heading_en": "구글 타임라인 json 원본 입력",
+      "caption": "",
       "figure_html": "<img src=\"images/Snipaste_2026-10-20_11-05-32.png\">",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "구글 타임라인 json 원본 입력",
+      "heading_ko": "위치분석기 사용방법(python)",
+      "type": "visual"
     },
     {
-      "type": "visual",
-      "heading_ko": "위치분석기 html 보고서",
-      "heading_en": "이동 흐름 분석",
+      "caption": "",
       "figure_html": "<img src=\"images/Snipaste_2026-10-20_11-24-02.png\">",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "이동 흐름 분석",
+      "heading_ko": "위치분석기 html 보고서",
+      "type": "visual"
     },
     {
-      "type": "visual",
-      "heading_ko": "생활거점, 근무지 프로파일링",
-      "heading_en": "",
+      "caption": "",
       "figure_html": "<img src=\"images/Snipaste_2026-10-20_11-08-23.png\">",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "",
+      "heading_ko": "생활거점, 근무지 프로파일링",
+      "type": "visual"
     },
     {
-      "type": "visual",
-      "heading_ko": "근무장소 영역설정",
-      "heading_en": "컴퍼스 필터",
+      "caption": "",
       "figure_html": "<img src=\"images/Snipaste_2026-10-20_11-09-06.png\">",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "컴퍼스 필터",
+      "heading_ko": "근무장소 영역설정",
+      "type": "visual"
     },
     {
-      "type": "visual",
-      "heading_ko": "근무시간 통계 그래프 분석",
-      "heading_en": "",
+      "caption": "",
       "figure_html": "<img src=\"images/Snipaste_2026-10-20_11-11-10.png\">",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "",
+      "heading_ko": "근무시간 통계 그래프 분석",
+      "type": "visual"
     },
     {
-      "type": "visual",
-      "heading_ko": "월별 근무 통계 분석",
-      "heading_en": "",
+      "caption": "",
       "figure_html": "<img src=\"images/Snipaste_2026-10-20_11-16-24.png\">",
-      "caption": "",
-      "footer_note": ""
-    },
-    {
-      "type": "visual",
+      "footer_note": "",
+      "heading_en": "",
       "heading_ko": "월별 근무 통계 분석",
-      "heading_en": "",
+      "type": "visual"
+    },
+    {
+      "caption": "",
       "figure_html": "<img src=\"images/Snipaste_2026-10-20_11-12-11.png\">",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "",
+      "heading_ko": "월별 근무 통계 분석",
+      "type": "visual"
     },
     {
-      "type": "visual",
-      "heading_ko": "일별 체류시간 분석",
-      "heading_en": "",
+      "caption": "",
       "figure_html": "<img src=\"images/Snipaste_2026-10-20_11-16-50.png\">",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "",
+      "heading_ko": "일별 체류시간 분석",
+      "type": "visual"
     },
     {
-      "type": "visual",
-      "heading_ko": "엑셀 보고서 다운로드(월 요약)",
-      "heading_en": "",
+      "caption": "",
       "figure_html": "<img src=\"images/Snipaste_2026-10-20_11-18-36.png\">",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "",
+      "heading_ko": "엑셀 보고서 다운로드(월 요약)",
+      "type": "visual"
     },
     {
-      "type": "visual",
-      "heading_ko": "엑셀 보고서 다운로드(일별)",
-      "heading_en": "",
+      "caption": "",
       "figure_html": "<img src=\"images/Snipaste_2026-10-20_11-19-13.png\">",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "",
+      "heading_ko": "엑셀 보고서 다운로드(일별)",
+      "type": "visual"
     },
     {
-      "type": "visual",
-      "heading_ko": "근무시간 통계 분석",
-      "heading_en": "",
+      "caption": "",
       "figure_html": "<img src=\"images/Snipaste_2026-10-20_11-19-36.png\">",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "",
+      "heading_ko": "근무시간 통계 분석",
+      "type": "visual"
     },
     {
-      "type": "summary",
-      "heading_ko": "정리: 위치분석기",
+      "footer_note": "",
       "heading_en": "",
+      "heading_ko": "정리: 위치분석기",
       "lead": "행위자 프로파일링",
       "points_html": "<li>부정수급자 등 이동 패턴 분석</li><li>임금체불자 근로시간 분석</li><li>임금체불, 산업재해 산업장 빈도분석</li>",
-      "footer_note": ""
+      "type": "summary"
     },
     {
-      "type": "qa",
-      "heading_ko": "예상질의",
+      "footer_note": "",
       "heading_en": "",
+      "heading_ko": "예상질의",
       "qa_html": "<div class=\"qa-item\"><p class=\"q\">위치분석기 분석 결과의 증거능력은?</p><p class=\"a\">디지털 자료를 분석하여 추정치를 계산한 참고자료임</p></div><div class=\"qa-item\"><p class=\"q\">위치분석기가 분석한 참고자료가 필요한 경우</p><p class=\"a\">영세사업장 등 노무 자료가 갖추어 있지 않거나 부정수급 목적으로 근태기록을 삭제, 은폐하는 등 일반적 증거를 기대하기 어려운 경우</p></div><div class=\"qa-item\"><p class=\"q\">실제 활용 사례는?</p><p class=\"a\">경기청 임금체불 구글 타임라인 지원분석, 부산북부지청 요양보호사 교대제 초과근로시간 산정, 00지청(대외비) 3개년 임금체불 사업장과 산재발생 사업장 교차분석 등</p></div>",
-      "footer_note": ""
+      "type": "qa"
     },
     {
-      "type": "chapter",
-      "title_ko": "SoundWriter",
-      "title_en": "STT+음성 포렌식",
       "chapter_figure": "",
-      "signature": "section // {{chapter_num}} of {{chapter_total}}"
+      "signature": "section // {{chapter_num}} of {{chapter_total}}",
+      "title_en": "STT+음성 포렌식",
+      "title_ko": "SoundWriter",
+      "type": "chapter"
     },
     {
-      "type": "visual",
-      "heading_ko": "주요 목적",
-      "heading_en": "포렌식 부서 외 비공개",
+      "caption": "",
       "figure_html": "<!--smartart-src:eyJzbHVnIjogImJMaXN0MiIsICJvdXRsaW5lIjogIlNUVCDtgqTsm4zrk5wg67aE7ISdIFxuICDtnLTrjIDtj7Ag64K0IOyImOyynCDqsbQg7J2M7ISxIOymneqxsCDshKDrs4Qg7JWV7IiYXG7rqZTtg4DrjbDsnbTthLAg67aE7ISdXG4gIOydjOyEsSDrhbnsnYzquLDquLAsIOuFueydjOydvOyLnCwg7JyE67OA7KGwIOyXrOu2gCDrtoTshJ1cbuyjvO2MjOyImCDrtoTshJ1cbiAg7IKw7JeFIOyGjOydjCDsoJzqsbAsIOyduOychOyggSDsnYzshLEg6rKw7ZWpLCDtjrjsp5Eg7J2M7ISxIOqygOy2nFxu7J2867CYIOq3nOqyqe2ZlFxuICDsoITsmqkg7ZSE66Gc6re4656oIOyXtOuejCDsnYzshLEsIOyYgeyDgSDtj6zrp7cg7J2867CY7ZmUKOyImOyCrOyekOujjC3qs7XqsJzrtojqsIApIiwgInNjaGVtZSI6IG51bGwsICJmb250X3NjYWxlIjogMS4wfQ==-->\n\n<style>\n.smartart-stage { position: relative; width: 100%; height: 100%; }\n.smartart-node {\n  position: absolute; box-sizing: border-box; overflow: hidden;\n  display: flex; align-items: center; justify-content: center;\n  container-type: size;\n  box-shadow: 0 4px 16px rgba(0,0,0,0.18);\n}\n.smartart-node.is-decor { opacity: 0.55; box-shadow: none; }\n/* 상위(data-lvl=0)는 진하고 또렷하게, 하위로 갈수록 살짝 밝고 채도 낮게 + 그림자 약하게 — 위계가 눈에 보이도록 */\n.smartart-node[data-lvl=\"1\"] { filter: brightness(1.12) saturate(0.85); box-shadow: 0 2px 8px rgba(0,0,0,0.14); }\n.smartart-node[data-lvl=\"2\"] { filter: brightness(1.22) saturate(0.72); box-shadow: 0 1px 5px rgba(0,0,0,0.10); }\n.smartart-node[data-lvl=\"1\"] .smartart-label, .smartart-node[data-lvl=\"2\"] .smartart-label { font-weight: 650; }\n.smartart-label {\n  padding: 0.1em 0.3em; text-align: center;\n  font-family: var(--font-kr); font-weight: 800;\n  color: var(--sa-ink, #fff); line-height: 1.15;\n  text-wrap: balance;\n  /* 박스 높이의 ~70~80%에서 시작, 글자수(--len)가 늘수록 폭 기준으로 자동 축소.\n     --sa-scale은 표 글자크기처럼 나중에 편집기에서 다이어그램별로 직접 조정할 배율(기본 1) — 상수로 박아두지 않음. */\n  font-size: clamp(0.72rem, calc(var(--sa-scale, 1) * min(32cqh, calc(170cqw / var(--len, 4)))), 2.8rem);\n}\n.sa-main { }\n.sa-sub { font-size: 0.62em; font-weight: 500; opacity: 0.85; margin-top: 0.25em; }\n</style>\n<div class=\"smartart-stage\" id=\"sa1\" style=\"--sa-ink:var(--ink-white); --sa-scale:1.0;\">\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:2.00%; top:2.00%; width:42.46%; height:29.90%; border-radius:10px; background:linear-gradient(135deg, var(--sea-foam), var(--sea-bright));\"><span class=\"smartart-label\" style=\"--len:22;\"><div class=\"sa-main\">휴대폰 내 수천 건 음성 증거 선별 압수</div></span></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:2.00%; top:31.90%; width:29.90%; height:12.86%; border-radius:10px; background:linear-gradient(135deg, var(--sea-bright), var(--sea-mid));\"><span class=\"smartart-label\" style=\"--len:10;\"><div class=\"sa-main\">STT 키워드 분석</div></span></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:2.00%; top:31.90%; width:42.46%; height:12.86%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:2.00%; top:2.00%; width:14.86%; height:14.86%; border-radius:50%; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:52.00%; top:2.00%; width:42.46%; height:29.90%; border-radius:10px; background:linear-gradient(135deg, var(--sea-bright), var(--sea-mid));\"><span class=\"smartart-label\" style=\"--len:24;\"><div class=\"sa-main\">음성 녹음기기, 녹음일시, 위변조 여부 분석</div></span></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:52.00%; top:31.90%; width:29.90%; height:12.86%; border-radius:10px; background:linear-gradient(135deg, var(--sea-sky), var(--sea-bright));\"><span class=\"smartart-label\" style=\"--len:8;\"><div class=\"sa-main\">메타데이터 분석</div></span></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:52.00%; top:31.90%; width:42.46%; height:12.86%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:52.00%; top:2.00%; width:14.86%; height:14.86%; border-radius:50%; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:2.00%; top:52.00%; width:42.46%; height:29.90%; border-radius:10px; background:linear-gradient(135deg, var(--sea-sky), var(--sea-bright));\"><span class=\"smartart-label\" style=\"--len:29;\"><div class=\"sa-main\">산업 소음 제거, 인위적 음성 결합, 편집 음성 검출</div></span></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:2.00%; top:81.90%; width:29.90%; height:12.86%; border-radius:10px; background:linear-gradient(135deg, var(--ink-white), var(--sea-bright));\"><span class=\"smartart-label\" style=\"--len:6;\"><div class=\"sa-main\">주파수 분석</div></span></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:2.00%; top:81.90%; width:42.46%; height:12.86%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:2.00%; top:52.00%; width:14.86%; height:14.86%; border-radius:50%; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:52.00%; top:52.00%; width:42.46%; height:29.90%; border-radius:10px; background:linear-gradient(135deg, var(--ink-white), var(--sea-bright));\"><span class=\"smartart-label\" style=\"--len:35;\"><div class=\"sa-main\">전용 프로그램 열람 음성, 영상 포맷 일반화(수사자료-공개불가)</div></span></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:52.00%; top:81.90%; width:29.90%; height:12.86%; border-radius:10px; background:linear-gradient(135deg, var(--sea-bright), var(--sea-deep));\"><span class=\"smartart-label\" style=\"--len:6;\"><div class=\"sa-main\">일반 규격화</div></span></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:52.00%; top:81.90%; width:42.46%; height:12.86%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:52.00%; top:52.00%; width:14.86%; height:14.86%; border-radius:50%; background:var(--sea-sky);\"></div>\n</div>",
-      "caption": "",
-      "footer_note": ""
-    },
-    {
-      "type": "visual",
-      "heading_ko": "주요 목적",
+      "footer_note": "",
       "heading_en": "포렌식 부서 외 비공개",
+      "heading_ko": "주요 목적",
+      "type": "visual"
+    },
+    {
+      "caption": "",
       "figure_html": "<!--smartart-src:eyJzbHVnIjogInB5cmFtaWQxIiwgIm91dGxpbmUiOiAi7IKs6rG0IOq0gOugqCDsnYzshLEg7Kad6rGwIOyEoOuzhFxu7J2M7ISxIOychOuzgOyhsCDrtoTshJ0g7J6Q64+Z7ZmUXG7rtoDqsIAg7Y647J2Y6riw64qlIOygnOqztSIsICJzY2hlbWUiOiBudWxsLCAiZm9udF9zY2FsZSI6IDEuMH0=-->\n\n<style>\n.smartart-stage { position: relative; width: 100%; height: 100%; }\n.smartart-node {\n  position: absolute; box-sizing: border-box; overflow: hidden;\n  display: flex; align-items: center; justify-content: center;\n  container-type: size;\n  box-shadow: 0 4px 16px rgba(0,0,0,0.18);\n}\n.smartart-node.is-decor { opacity: 0.55; box-shadow: none; }\n/* 상위(data-lvl=0)는 진하고 또렷하게, 하위로 갈수록 살짝 밝고 채도 낮게 + 그림자 약하게 — 위계가 눈에 보이도록 */\n.smartart-node[data-lvl=\"1\"] { filter: brightness(1.12) saturate(0.85); box-shadow: 0 2px 8px rgba(0,0,0,0.14); }\n.smartart-node[data-lvl=\"2\"] { filter: brightness(1.22) saturate(0.72); box-shadow: 0 1px 5px rgba(0,0,0,0.10); }\n.smartart-node[data-lvl=\"1\"] .smartart-label, .smartart-node[data-lvl=\"2\"] .smartart-label { font-weight: 650; }\n.smartart-label {\n  padding: 0.1em 0.3em; text-align: center;\n  font-family: var(--font-kr); font-weight: 800;\n  color: var(--sa-ink, #fff); line-height: 1.15;\n  text-wrap: balance;\n  /* 박스 높이의 ~70~80%에서 시작, 글자수(--len)가 늘수록 폭 기준으로 자동 축소.\n     --sa-scale은 표 글자크기처럼 나중에 편집기에서 다이어그램별로 직접 조정할 배율(기본 1) — 상수로 박아두지 않음. */\n  font-size: clamp(0.72rem, calc(var(--sa-scale, 1) * min(32cqh, calc(170cqw / var(--len, 4)))), 2.8rem);\n}\n.sa-main { }\n.sa-sub { font-size: 0.62em; font-weight: 500; opacity: 0.85; margin-top: 0.25em; }\n</style>\n<div class=\"smartart-stage\" id=\"sa1\" style=\"--sa-ink:var(--ink-white); --sa-scale:1.0;\">\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:0.00%; top:66.67%; width:100.00%; height:33.33%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:17.50%; top:66.67%; width:65.00%; height:33.33%; border-radius:10px; background:linear-gradient(135deg, var(--sea-bright), var(--sea-mid));\"><span class=\"smartart-label\" style=\"--len:14;\"><div class=\"sa-main\">사건 관련 음성 증거 선별</div></span></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:9.17%; top:33.33%; width:81.67%; height:33.33%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:23.46%; top:33.33%; width:53.08%; height:33.33%; border-radius:10px; background:linear-gradient(135deg, var(--sea-sky), var(--sea-bright));\"><span class=\"smartart-label\" style=\"--len:13;\"><div class=\"sa-main\">음성 위변조 분석 자동화</div></span></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:18.33%; top:0.00%; width:63.33%; height:33.33%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:29.42%; top:0.00%; width:41.17%; height:33.33%; border-radius:10px; background:linear-gradient(135deg, var(--ink-white), var(--sea-bright));\"><span class=\"smartart-label\" style=\"--len:10;\"><div class=\"sa-main\">부가 편의기능 제공</div></span></div>\n</div>",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "포렌식 부서 외 비공개",
+      "heading_ko": "주요 목적",
+      "type": "visual"
     },
     {
-      "type": "visual",
-      "heading_ko": "STT-키워드 분석",
-      "heading_en": "",
+      "caption": "",
       "figure_html": "<img src=\"images/Snipaste_2026-10-20_13-34-47.png\">",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "",
+      "heading_ko": "STT-키워드 분석",
+      "type": "visual"
     },
     {
-      "type": "visual",
-      "heading_ko": "원본 음성 추적(실제 사건 재현)",
-      "heading_en": "",
+      "caption": "",
       "figure_html": "<img src=\"images/Snipaste_2026-10-20_13-36-09.png\">",
-      "caption": "",
-      "footer_note": ""
-    },
-    {
-      "type": "visual",
+      "footer_note": "",
+      "heading_en": "",
       "heading_ko": "원본 음성 추적(실제 사건 재현)",
-      "heading_en": "",
+      "type": "visual"
+    },
+    {
+      "caption": "",
       "figure_html": "<img src=\"images/Snipaste_2026-10-20_13-38-23.png\">",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "",
+      "heading_ko": "원본 음성 추적(실제 사건 재현)",
+      "type": "visual"
     },
     {
-      "type": "visual",
-      "heading_ko": "산업 소음 분리(실제 사건 재현)",
-      "heading_en": "",
+      "caption": "",
       "figure_html": "<img src=\"images/Snipaste_2026-10-20_13-43-55.png\">",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "",
+      "heading_ko": "산업 소음 분리(실제 사건 재현)",
+      "type": "visual"
     },
     {
-      "type": "visual",
-      "heading_ko": "인위적 음성 결합 탐지(실제 사건 재현)",
-      "heading_en": "",
+      "caption": "",
       "figure_html": "<img src=\"images/Snipaste_2026-10-20_13-30-21.png\">",
-      "caption": "",
-      "footer_note": ""
-    },
-    {
-      "type": "visual",
+      "footer_note": "",
+      "heading_en": "",
       "heading_ko": "인위적 음성 결합 탐지(실제 사건 재현)",
-      "heading_en": "",
-      "figure_html": "<img src=\"images/Snipaste_2026-10-20_13-31-25.png\">",
+      "type": "visual"
+    },
+    {
       "caption": "",
-      "footer_note": ""
+      "figure_html": "<img src=\"images/Snipaste_2026-10-20_13-31-25.png\">",
+      "footer_note": "",
+      "heading_en": "",
+      "heading_ko": "인위적 음성 결합 탐지(실제 사건 재현)",
+      "type": "visual"
     },
     {
-      "type": "qa",
+      "footer_note": "",
+      "heading_en": "",
       "heading_ko": "예상질의",
-      "heading_en": "",
       "qa_html": "<div class=\"qa-item\"><p class=\"q\">소개된 기능들은 모두 실제 활용된 사례인지</p><p class=\"a\">모두 실제 사건을 재현한 것임</p></div><div class=\"qa-item\"><p class=\"q\">가장 많이 활용되는 것은</p><p class=\"a\">순서대로 압수한 휴대전화 STT 키워드 분석으로, 전국 포렌식 부서에서 활용 중(기기당 수천 건의 녹취파일)이고, 음성 녹음일시 분석, 소음 분리 등임</p></div><div class=\"qa-item\"><p class=\"q\">AI 위변조 탐지도 가능한지</p><p class=\"a\">기술 유출 문제로 공개하지 않은 사진 위변조 탐지, 문서 위변조 탐지(DocTrace) 등과 함께 AI 탐지 연구에 관한 연구 중임</p></div>",
-      "footer_note": ""
+      "type": "qa"
     },
     {
-      "type": "summary",
-      "heading_ko": "정리: SoundWriter",
+      "footer_note": "",
       "heading_en": "",
+      "heading_ko": "정리: SoundWriter",
       "lead": "수작업 음성 포렌식의 자동화",
       "points_html": "<li>STT 키워드 분석</li><li>음성 위변조 포렌식</li>",
-      "footer_note": ""
+      "type": "summary"
     },
     {
-      "type": "chapter",
-      "title_ko": "피의자 위치추적앱",
-      "title_en": "피의자 체포 지원 스마트폰 앱",
       "chapter_figure": "",
-      "signature": "section // {{chapter_num}} of {{chapter_total}}"
+      "signature": "section // {{chapter_num}} of {{chapter_total}}",
+      "title_en": "피의자 체포 지원 스마트폰 앱",
+      "title_ko": "피의자 위치추적앱",
+      "type": "chapter"
     },
     {
-      "type": "visual",
-      "heading_ko": "주요 목적",
-      "heading_en": "",
+      "caption": "",
       "figure_html": "<!--smartart-src:eyJzbHVnIjogImJMaXN0MiIsICJvdXRsaW5lIjogIuyLpOyLnOqwhCDsnITsuZgg7YOQ7KeAXG4gIOyytO2PrOuMgOyDgSDtlLzsnZjsnpAg7ZiE7JyE7LmYIO2DkOyngFxu7Y647J2Y7ISxIOygnOqztVxuICDrhKTruYTqsozsnbTshZgg7Jew64+ZLCDsgqzsl4XsnqUg7IaM7J6sIO2DkOyngCDrk7EiLCAic2NoZW1lIjogbnVsbCwgImZvbnRfc2NhbGUiOiAxLjB9-->\n\n<style>\n.smartart-stage { position: relative; width: 100%; height: 100%; }\n.smartart-node {\n  position: absolute; box-sizing: border-box; overflow: hidden;\n  display: flex; align-items: center; justify-content: center;\n  container-type: size;\n  box-shadow: 0 4px 16px rgba(0,0,0,0.18);\n}\n.smartart-node.is-decor { opacity: 0.55; box-shadow: none; }\n/* 상위(data-lvl=0)는 진하고 또렷하게, 하위로 갈수록 살짝 밝고 채도 낮게 + 그림자 약하게 — 위계가 눈에 보이도록 */\n.smartart-node[data-lvl=\"1\"] { filter: brightness(1.12) saturate(0.85); box-shadow: 0 2px 8px rgba(0,0,0,0.14); }\n.smartart-node[data-lvl=\"2\"] { filter: brightness(1.22) saturate(0.72); box-shadow: 0 1px 5px rgba(0,0,0,0.10); }\n.smartart-node[data-lvl=\"1\"] .smartart-label, .smartart-node[data-lvl=\"2\"] .smartart-label { font-weight: 650; }\n.smartart-label {\n  padding: 0.1em 0.3em; text-align: center;\n  font-family: var(--font-kr); font-weight: 800;\n  color: var(--sa-ink, #fff); line-height: 1.15;\n  text-wrap: balance;\n  /* 박스 높이의 ~70~80%에서 시작, 글자수(--len)가 늘수록 폭 기준으로 자동 축소.\n     --sa-scale은 표 글자크기처럼 나중에 편집기에서 다이어그램별로 직접 조정할 배율(기본 1) — 상수로 박아두지 않음. */\n  font-size: clamp(0.72rem, calc(var(--sa-scale, 1) * min(32cqh, calc(170cqw / var(--len, 4)))), 2.8rem);\n}\n.sa-main { }\n.sa-sub { font-size: 0.62em; font-weight: 500; opacity: 0.85; margin-top: 0.25em; }\n</style>\n<div class=\"smartart-stage\" id=\"sa1\" style=\"--sa-ink:var(--ink-white); --sa-scale:1.0;\">\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:2.00%; top:4.00%; width:42.46%; height:59.80%; border-radius:10px; background:linear-gradient(135deg, var(--sea-foam), var(--sea-bright));\"><span class=\"smartart-label\" style=\"--len:15;\"><div class=\"sa-main\">체포대상 피의자 현위치 탐지</div></span></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:2.00%; top:63.80%; width:29.90%; height:25.71%; border-radius:10px; background:linear-gradient(135deg, var(--sea-bright), var(--sea-mid));\"><span class=\"smartart-label\" style=\"--len:9;\"><div class=\"sa-main\">실시간 위치 탐지</div></span></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:2.00%; top:63.80%; width:42.46%; height:25.71%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:2.00%; top:4.00%; width:14.86%; height:29.72%; border-radius:50%; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:52.00%; top:4.00%; width:42.46%; height:59.80%; border-radius:10px; background:linear-gradient(135deg, var(--sea-bright), var(--sea-mid));\"><span class=\"smartart-label\" style=\"--len:21;\"><div class=\"sa-main\">네비게이션 연동, 사업장 소재 탐지 등</div></span></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:52.00%; top:63.80%; width:29.90%; height:25.71%; border-radius:10px; background:linear-gradient(135deg, var(--sea-sky), var(--sea-bright));\"><span class=\"smartart-label\" style=\"--len:6;\"><div class=\"sa-main\">편의성 제공</div></span></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:52.00%; top:63.80%; width:42.46%; height:25.71%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:52.00%; top:4.00%; width:14.86%; height:29.72%; border-radius:50%; background:var(--sea-sky);\"></div>\n</div>",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "",
+      "heading_ko": "주요 목적",
+      "type": "visual"
     },
     {
-      "type": "visual",
-      "heading_ko": "실시간 위치 추적",
-      "heading_en": "",
+      "caption": "",
       "figure_html": "<img src=\"images/실시간 위치 추적.gif\">",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "",
+      "heading_ko": "실시간 위치 추적",
+      "type": "visual"
     },
     {
-      "type": "visual",
-      "heading_ko": "생활 거점 등 추정",
-      "heading_en": "",
+      "caption": "",
       "figure_html": "<img src=\"images/생활거점 추정.gif\">",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "",
+      "heading_ko": "생활 거점 등 추정",
+      "type": "visual"
     },
     {
-      "type": "visual",
-      "heading_ko": "네비게이션 연동",
-      "heading_en": "",
+      "caption": "",
       "figure_html": "<img src=\"images/네비게이션 연동.gif\">",
-      "caption": "",
-      "footer_note": ""
+      "footer_note": "",
+      "heading_en": "",
+      "heading_ko": "네비게이션 연동",
+      "type": "visual"
     },
     {
-      "type": "qa",
+      "footer_note": "",
+      "heading_en": "",
       "heading_ko": "예상질의",
-      "heading_en": "",
       "qa_html": "<div class=\"qa-item\"><p class=\"q\">위치추적 앱이 있어야 하는 이유는?</p><p class=\"a\">위치분석기 개발 후 감독관 시연 중, 피의자 체포를 위한 모바일 앱 개발 요구에 따른 것으로, 운전 중 피의자 위치가 변경되더라도 체포 작전 수행을 유지하기 위함.</p></div><div class=\"qa-item\"><p class=\"q\">동작원리 및 실제 동작여부는?</p><p class=\"a\">체포영장 및 통신영장 청구시 감독관 휴대전화로 수신되는 문자 메시지를 분석. 체포 감독관 협조를 통해 구현 완성도 확인 완료</p></div>",
-      "footer_note": ""
+      "type": "qa"
     },
     {
-      "type": "summary",
-      "heading_ko": "정리: 피의자 위치추적앱",
+      "footer_note": "",
       "heading_en": "",
+      "heading_ko": "정리: 피의자 위치추적앱",
       "lead": "휴대폰 앱을 통한 체포 지원",
       "points_html": "<li>실시간 위치 추적</li><li>네비게이션 연동 등 편의성 제공</li>",
-      "footer_note": ""
+      "type": "summary"
     },
     {
-      "type": "chapter",
-      "title_ko": "CCTV 분석기",
-      "title_en": "사건 관련 구간 객체 탐지",
       "chapter_figure": "",
-      "signature": "section // {{chapter_num}} of {{chapter_total}}"
+      "signature": "section // {{chapter_num}} of {{chapter_total}}",
+      "title_en": "사건 관련 구간 객체 탐지",
+      "title_ko": "CCTV 분석기",
+      "type": "chapter"
     },
     {
-      "type": "visual",
-      "heading_ko": "주요 목적",
-      "heading_en": "포렌식 부서 외 비공개",
+      "caption": "",
       "figure_html": "<!--smartart-src:eyJzbHVnIjogImJMaXN0MiIsICJvdXRsaW5lIjogIuqwneyytCDtg5Dsp4BcbiAg7JiB7IOBIOuCtCDssKjrn4ksIOyCrOuejCDrk7Eg7YOQ7KeAXG5zaG9ydHMg67aE7ISdXG4gIOqwneyytO2DkOyngCDsoITtm4QgNX4xMOy0iCDsmIHsg4Eg7KaJ7IucIOyerOyDnSIsICJzY2hlbWUiOiBudWxsLCAiZm9udF9zY2FsZSI6IDEuMH0=-->\n\n<style>\n.smartart-stage { position: relative; width: 100%; height: 100%; }\n.smartart-node {\n  position: absolute; box-sizing: border-box; overflow: hidden;\n  display: flex; align-items: center; justify-content: center;\n  container-type: size;\n  box-shadow: 0 4px 16px rgba(0,0,0,0.18);\n}\n.smartart-node.is-decor { opacity: 0.55; box-shadow: none; }\n/* 상위(data-lvl=0)는 진하고 또렷하게, 하위로 갈수록 살짝 밝고 채도 낮게 + 그림자 약하게 — 위계가 눈에 보이도록 */\n.smartart-node[data-lvl=\"1\"] { filter: brightness(1.12) saturate(0.85); box-shadow: 0 2px 8px rgba(0,0,0,0.14); }\n.smartart-node[data-lvl=\"2\"] { filter: brightness(1.22) saturate(0.72); box-shadow: 0 1px 5px rgba(0,0,0,0.10); }\n.smartart-node[data-lvl=\"1\"] .smartart-label, .smartart-node[data-lvl=\"2\"] .smartart-label { font-weight: 650; }\n.smartart-label {\n  padding: 0.1em 0.3em; text-align: center;\n  font-family: var(--font-kr); font-weight: 800;\n  color: var(--sa-ink, #fff); line-height: 1.15;\n  text-wrap: balance;\n  /* 박스 높이의 ~70~80%에서 시작, 글자수(--len)가 늘수록 폭 기준으로 자동 축소.\n     --sa-scale은 표 글자크기처럼 나중에 편집기에서 다이어그램별로 직접 조정할 배율(기본 1) — 상수로 박아두지 않음. */\n  font-size: clamp(0.72rem, calc(var(--sa-scale, 1) * min(32cqh, calc(170cqw / var(--len, 4)))), 2.8rem);\n}\n.sa-main { }\n.sa-sub { font-size: 0.62em; font-weight: 500; opacity: 0.85; margin-top: 0.25em; }\n</style>\n<div class=\"smartart-stage\" id=\"sa1\" style=\"--sa-ink:var(--ink-white); --sa-scale:1.0;\">\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:2.00%; top:4.00%; width:42.46%; height:59.80%; border-radius:10px; background:linear-gradient(135deg, var(--sea-foam), var(--sea-bright));\"><span class=\"smartart-label\" style=\"--len:16;\"><div class=\"sa-main\">영상 내 차량, 사람 등 탐지</div></span></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:2.00%; top:63.80%; width:29.90%; height:25.71%; border-radius:10px; background:linear-gradient(135deg, var(--sea-bright), var(--sea-mid));\"><span class=\"smartart-label\" style=\"--len:5;\"><div class=\"sa-main\">객체 탐지</div></span></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:2.00%; top:63.80%; width:42.46%; height:25.71%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:2.00%; top:4.00%; width:14.86%; height:29.72%; border-radius:50%; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:52.00%; top:4.00%; width:42.46%; height:59.80%; border-radius:10px; background:linear-gradient(135deg, var(--sea-bright), var(--sea-mid));\"><span class=\"smartart-label\" style=\"--len:22;\"><div class=\"sa-main\">객체탐지 전후 5~10초 영상 즉시 재생</div></span></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:52.00%; top:63.80%; width:29.90%; height:25.71%; border-radius:10px; background:linear-gradient(135deg, var(--sea-sky), var(--sea-bright));\"><span class=\"smartart-label\" style=\"--len:9;\"><div class=\"sa-main\">shorts 분석</div></span></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:52.00%; top:63.80%; width:42.46%; height:25.71%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:52.00%; top:4.00%; width:14.86%; height:29.72%; border-radius:50%; background:var(--sea-sky);\"></div>\n</div>",
-      "caption": "",
-      "footer_note": ""
-    },
-    {
-      "type": "visual",
-      "heading_ko": "주요 목적",
+      "footer_note": "",
       "heading_en": "포렌식 부서 외 비공개",
-      "figure_html": "<!--smartart-src:eyJzbHVnIjogInB5cmFtaWQxIiwgIm91dGxpbmUiOiAi67aI7ZWE7JqU7ZWcIOu2gOu2hCDsoJzsmbggLSDsiJjsgqwg7Iuc6rCEIOygiOyVvVxu7LK066WY7Iuc6rCEIOu2hOyEnSDrk7Eg6re866Gc7Iuc6rCEIOy2lOyglVxu7Yq57KCVIOyduOusvCDrk7Eg7LaU7KCBIiwgInNjaGVtZSI6IG51bGwsICJmb250X3NjYWxlIjogMS4wfQ==-->\n\n<style>\n.smartart-stage { position: relative; width: 100%; height: 100%; }\n.smartart-node {\n  position: absolute; box-sizing: border-box; overflow: hidden;\n  display: flex; align-items: center; justify-content: center;\n  container-type: size;\n  box-shadow: 0 4px 16px rgba(0,0,0,0.18);\n}\n.smartart-node.is-decor { opacity: 0.55; box-shadow: none; }\n/* 상위(data-lvl=0)는 진하고 또렷하게, 하위로 갈수록 살짝 밝고 채도 낮게 + 그림자 약하게 — 위계가 눈에 보이도록 */\n.smartart-node[data-lvl=\"1\"] { filter: brightness(1.12) saturate(0.85); box-shadow: 0 2px 8px rgba(0,0,0,0.14); }\n.smartart-node[data-lvl=\"2\"] { filter: brightness(1.22) saturate(0.72); box-shadow: 0 1px 5px rgba(0,0,0,0.10); }\n.smartart-node[data-lvl=\"1\"] .smartart-label, .smartart-node[data-lvl=\"2\"] .smartart-label { font-weight: 650; }\n.smartart-label {\n  padding: 0.1em 0.3em; text-align: center;\n  font-family: var(--font-kr); font-weight: 800;\n  color: var(--sa-ink, #fff); line-height: 1.15;\n  text-wrap: balance;\n  /* 박스 높이의 ~70~80%에서 시작, 글자수(--len)가 늘수록 폭 기준으로 자동 축소.\n     --sa-scale은 표 글자크기처럼 나중에 편집기에서 다이어그램별로 직접 조정할 배율(기본 1) — 상수로 박아두지 않음. */\n  font-size: clamp(0.72rem, calc(var(--sa-scale, 1) * min(32cqh, calc(170cqw / var(--len, 4)))), 2.8rem);\n}\n.sa-main { }\n.sa-sub { font-size: 0.62em; font-weight: 500; opacity: 0.85; margin-top: 0.25em; }\n</style>\n<div class=\"smartart-stage\" id=\"sa1\" style=\"--sa-ink:var(--ink-white); --sa-scale:1.0;\">\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:0.00%; top:66.67%; width:100.00%; height:33.33%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:17.50%; top:66.67%; width:65.00%; height:33.33%; border-radius:10px; background:linear-gradient(135deg, var(--sea-bright), var(--sea-mid));\"><span class=\"smartart-label\" style=\"--len:21;\"><div class=\"sa-main\">불필요한 부분 제외 - 수사 시간 절약</div></span></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:9.17%; top:33.33%; width:81.67%; height:33.33%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:23.46%; top:33.33%; width:53.08%; height:33.33%; border-radius:10px; background:linear-gradient(135deg, var(--sea-sky), var(--sea-bright));\"><span class=\"smartart-label\" style=\"--len:17;\"><div class=\"sa-main\">체류시간 분석 등 근로시간 추정</div></span></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:18.33%; top:0.00%; width:63.33%; height:33.33%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:29.42%; top:0.00%; width:41.17%; height:33.33%; border-radius:10px; background:linear-gradient(135deg, var(--ink-white), var(--sea-bright));\"><span class=\"smartart-label\" style=\"--len:10;\"><div class=\"sa-main\">특정 인물 등 추적</div></span></div>\n</div>",
-      "caption": "",
-      "footer_note": ""
+      "heading_ko": "주요 목적",
+      "type": "visual"
     },
     {
-      "type": "summary",
-      "heading_ko": "객체 탐지(실제 사건 재현)",
+      "caption": "",
+      "figure_html": "<!--smartart-src:eyJzbHVnIjogInB5cmFtaWQxIiwgIm91dGxpbmUiOiAi67aI7ZWE7JqU7ZWcIOu2gOu2hCDsoJzsmbggLSDsiJjsgqwg7Iuc6rCEIOygiOyVvVxu7LK066WY7Iuc6rCEIOu2hOyEnSDrk7Eg6re866Gc7Iuc6rCEIOy2lOyglVxu7Yq57KCVIOyduOusvCDrk7Eg7LaU7KCBIiwgInNjaGVtZSI6IG51bGwsICJmb250X3NjYWxlIjogMS4wfQ==-->\n\n<style>\n.smartart-stage { position: relative; width: 100%; height: 100%; }\n.smartart-node {\n  position: absolute; box-sizing: border-box; overflow: hidden;\n  display: flex; align-items: center; justify-content: center;\n  container-type: size;\n  box-shadow: 0 4px 16px rgba(0,0,0,0.18);\n}\n.smartart-node.is-decor { opacity: 0.55; box-shadow: none; }\n/* 상위(data-lvl=0)는 진하고 또렷하게, 하위로 갈수록 살짝 밝고 채도 낮게 + 그림자 약하게 — 위계가 눈에 보이도록 */\n.smartart-node[data-lvl=\"1\"] { filter: brightness(1.12) saturate(0.85); box-shadow: 0 2px 8px rgba(0,0,0,0.14); }\n.smartart-node[data-lvl=\"2\"] { filter: brightness(1.22) saturate(0.72); box-shadow: 0 1px 5px rgba(0,0,0,0.10); }\n.smartart-node[data-lvl=\"1\"] .smartart-label, .smartart-node[data-lvl=\"2\"] .smartart-label { font-weight: 650; }\n.smartart-label {\n  padding: 0.1em 0.3em; text-align: center;\n  font-family: var(--font-kr); font-weight: 800;\n  color: var(--sa-ink, #fff); line-height: 1.15;\n  text-wrap: balance;\n  /* 박스 높이의 ~70~80%에서 시작, 글자수(--len)가 늘수록 폭 기준으로 자동 축소.\n     --sa-scale은 표 글자크기처럼 나중에 편집기에서 다이어그램별로 직접 조정할 배율(기본 1) — 상수로 박아두지 않음. */\n  font-size: clamp(0.72rem, calc(var(--sa-scale, 1) * min(32cqh, calc(170cqw / var(--len, 4)))), 2.8rem);\n}\n.sa-main { }\n.sa-sub { font-size: 0.62em; font-weight: 500; opacity: 0.85; margin-top: 0.25em; }\n</style>\n<div class=\"smartart-stage\" id=\"sa1\" style=\"--sa-ink:var(--ink-white); --sa-scale:1.0;\">\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:0.00%; top:66.67%; width:100.00%; height:33.33%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:17.50%; top:66.67%; width:65.00%; height:33.33%; border-radius:10px; background:linear-gradient(135deg, var(--sea-bright), var(--sea-mid));\"><span class=\"smartart-label\" style=\"--len:21;\"><div class=\"sa-main\">불필요한 부분 제외 - 수사 시간 절약</div></span></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:9.17%; top:33.33%; width:81.67%; height:33.33%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:23.46%; top:33.33%; width:53.08%; height:33.33%; border-radius:10px; background:linear-gradient(135deg, var(--sea-sky), var(--sea-bright));\"><span class=\"smartart-label\" style=\"--len:17;\"><div class=\"sa-main\">체류시간 분석 등 근로시간 추정</div></span></div>\n  <div class=\"smartart-node is-decor\" data-lvl=\"0\" style=\"left:18.33%; top:0.00%; width:63.33%; height:33.33%; border-radius:10px; background:var(--sea-sky);\"></div>\n  <div class=\"smartart-node\" data-lvl=\"0\" style=\"left:29.42%; top:0.00%; width:41.17%; height:33.33%; border-radius:10px; background:linear-gradient(135deg, var(--ink-white), var(--sea-bright));\"><span class=\"smartart-label\" style=\"--len:10;\"><div class=\"sa-main\">특정 인물 등 추적</div></span></div>\n</div>",
+      "footer_note": "",
+      "heading_en": "포렌식 부서 외 비공개",
+      "heading_ko": "주요 목적",
+      "type": "visual"
+    },
+    {
+      "footer_note": "",
       "heading_en": "",
+      "heading_ko": "객체 탐지(실제 사건 재현)",
       "lead": "",
       "points_html": "",
-      "footer_note": ""
+      "type": "summary"
     },
     {
       "footer_note": "",
