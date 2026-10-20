@@ -2,7 +2,7 @@
   "meta": {
     "author": "발표자",
     "deck_title": "프로그램 소개",
-    "scaffold": "p3r-summer",
+    "scaffold": "dusty-rose",
     "sub": "AI프로그램 개발 유형",
     "title": "261020_program",
     "body_scale": "1.5"
@@ -153,7 +153,7 @@
     {
       "type": "chapter",
       "title_ko": "SoundWriter",
-      "title_en": "",
+      "title_en": "STT+음성 포렌식",
       "chapter_figure": "",
       "signature": "section // {{chapter_num}} of {{chapter_total}}"
     },
@@ -239,7 +239,7 @@
     {
       "type": "chapter",
       "title_ko": "피의자 위치추적앱",
-      "title_en": "",
+      "title_en": "피의자 체포 지원 스마트폰 앱",
       "chapter_figure": "",
       "signature": "section // {{chapter_num}} of {{chapter_total}}"
     },
@@ -293,7 +293,7 @@
     {
       "type": "chapter",
       "title_ko": "CCTV 분석기",
-      "title_en": "",
+      "title_en": "사건 관련 구간 객체 탐지",
       "chapter_figure": "",
       "signature": "section // {{chapter_num}} of {{chapter_total}}"
     },
