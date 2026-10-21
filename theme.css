@@ -41,7 +41,7 @@ html, body {
   background: var(--c-bg4);
 }
 
-.slide { position: relative; width: 100%; height: 100%; overflow: hidden; }
+.slide { position: relative; width: 100%; height: 100%; overflow: hidden; word-break: keep-all; overflow-wrap: break-word; }
 
 /* 공통 비네팅 (content/visual/summary 에 적용; chapter/title/closing 은 자체 ::after 우선) */
 .slide::after {
@@ -98,9 +98,9 @@ html, body {
 .progress-tr .bar { margin-top: 0.6em; width: 80px; height: 2px; background: var(--c-panel-bd); margin-left: auto; position: relative; }
 .progress-tr .bar::after { content: ""; position: absolute; top: 0; left: 0; width: var(--progress-pct, 20%); height: 100%; background: var(--c-accent); box-shadow: 0 0 8px var(--c-accent-glow); }
 
-.main { position: absolute; top: 50%; left: 36%; transform: translateY(-50%); z-index: 4; }
+.main { position: absolute; top: 50%; left: 22%; transform: translateY(-50%); z-index: 4; }
 
-.chapter-kicker { display: inline-flex; align-items: baseline; gap: 0.6em; font-family: var(--font-num); font-weight: 500; letter-spacing: 0.35em; margin-bottom: 0.6em; position: relative; }
+.chapter-kicker { margin-right: 0.4em; display: inline-flex; align-items: baseline; gap: 0.6em; font-family: var(--font-num); font-weight: 500; letter-spacing: 0.35em; margin-bottom: 0.6em; position: relative; }
 .chapter-kicker .label { font-size: 0.9rem; color: var(--c-accent2); text-transform: uppercase; }
 .chapter-kicker .num { font-weight: 700; font-size: 2.6rem; color: var(--c-ink-strong); letter-spacing: 0.02em; line-height: 1; position: relative; text-shadow: var(--sh-h2); }
 .chapter-kicker .num::after { content: ""; position: absolute; top: 30%; left: -10%; width: 120%; height: 22%; background: var(--c-focus); transform: rotate(-10deg); z-index: -1; box-shadow: 0 0 18px var(--c-focus-glow); clip-path: polygon(2% 0, 100% 10%, 98% 100%, 0 90%); }
@@ -174,7 +174,7 @@ html, body {
 .visual-head .heading-ko { position: relative; font-family: var(--font-kr); font-weight: 900; font-size: 2.6rem; line-height: 1.0; color: var(--c-ink-strong); letter-spacing: -0.02em; text-shadow: var(--sh-h2); transform: rotate(-1.5deg); transform-origin: left center; order: 1; }
 .visual-head .heading-ko::after { content: ""; position: absolute; left: 0; bottom: -0.3em; width: 100%; height: 4px; background: var(--c-focus); box-shadow: 0 0 14px var(--c-focus-glow); }
 .visual-head .heading-bar { display: none; }
-.visual-stage { position: absolute; inset: 21vh 6vw 9vh 6vw; z-index: 4; display: flex; flex-direction: column; }
+.visual-stage { position: absolute; inset: 24vh 6vw 8vh 6vw; z-index: 4; display: flex; flex-direction: column; }
 .visual-figure { flex: 1; min-height: 0; border: 1px solid var(--c-panel-bd); background: var(--c-panel); backdrop-filter: blur(4px); border-radius: 4px; display: flex; align-items: center; justify-content: center; overflow: hidden; padding: 2vh 2vw; }
 .visual-figure img, .visual-figure svg { max-width: 100%; max-height: 100%; object-fit: contain; }
 .visual-figure table { border-collapse: collapse; font-family: var(--font-kr); font-size: 1.1rem; color: var(--c-ink); }
@@ -303,12 +303,12 @@ table.pres-table tbody tr:nth-child(even) td { background: var(--c-wash2); }
     linear-gradient(170deg, var(--c-bg2) 0%, var(--c-bg3) 50%, var(--c-bg4) 100%);
 }
 .slide.type-qa::before { content: ""; position: absolute; inset: 0; background-image: linear-gradient(var(--c-grid) 1px, transparent 1px), linear-gradient(90deg, var(--c-grid) 1px, transparent 1px); background-size: 64px 64px; pointer-events: none; }
-.qa-head { position: absolute; top: 9vh; left: 6vw; right: 6vw; z-index: 5; display: flex; align-items: baseline; gap: 1.2em; }
+.qa-head { position: absolute; top: 14vh; left: 6vw; right: 6vw; z-index: 5; display: flex; align-items: baseline; gap: 1.2em; }
 .qa-head .heading-en { font-family: var(--font-en); font-weight: 500; font-size: 0.8rem; letter-spacing: 0.4em; color: var(--c-accent2); text-transform: uppercase; order: 2; }
 .qa-head .heading-ko { position: relative; font-family: var(--font-kr); font-weight: 900; font-size: 2.6rem; line-height: 1.0; color: var(--c-ink-strong); letter-spacing: -0.02em; text-shadow: var(--sh-h2); transform: rotate(-1.5deg); transform-origin: left center; order: 1; }
 .qa-head .heading-ko::after { content: ""; position: absolute; left: 0; bottom: -0.3em; width: 100%; height: 4px; background: var(--c-focus); box-shadow: 0 0 14px var(--c-focus-glow); }
 .qa-head .heading-bar { display: none; }
-.qa-list { position: absolute; inset: 22vh 6vw 9vh 6vw; z-index: 4; display: flex; flex-direction: column; gap: 1.8vh; overflow: hidden; }
+.qa-list { position: absolute; inset: 25vh 6vw 6vh 6vw; z-index: 4; display: flex; flex-direction: column; gap: 1.8vh; overflow: hidden; }
 .qa-item { background: var(--c-panel); border: 1px solid var(--c-panel-bd); border-left: 3px solid var(--c-accent); border-radius: 6px; padding: 1.6vh 1.8vw; backdrop-filter: blur(4px); }
 .qa-item .q, .qa-item .a { position: relative; padding-left: 2.4em; font-family: var(--font-kr); line-height: 1.5; }
 .qa-item .q { font-weight: 700; font-size: calc(1.25rem * var(--body-scale, 1)); color: var(--c-ink-strong); }
